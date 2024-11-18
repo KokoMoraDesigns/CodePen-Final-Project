@@ -1,0 +1,29 @@
+.squares {
+    background-color: rgb(62, 60, 60);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    letter-spacing: -1px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid grey;
+    height: 50px;
+    margin-left: -20px;
+    margin-right: -9px;
+}
+
+
+.squares > .common-square {
+   padding-left: 103px;
+}
+
+.squares > .dif-square {
+    font-family: 'Jost',sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    border-right: 1px solid grey;
+    padding: 13px 0px;
+}
+
